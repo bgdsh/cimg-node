@@ -1,4 +1,4 @@
-FROM cimg/node:12.20
+FROM cimg/node:14.15
 
 RUN npm i yarn -g
 RUN npm i -g serverless
